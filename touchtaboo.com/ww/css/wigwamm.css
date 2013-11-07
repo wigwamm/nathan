@@ -1,0 +1,348 @@
+/* line 46, ../sass/wigwamm.scss */
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+/* line 52, ../sass/wigwamm.scss */
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans';
+  font-size: 1.4rem;
+  line-height: 2rem;
+  background: black;
+}
+
+/* line 63, ../sass/wigwamm.scss */
+.prop-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 70, ../sass/wigwamm.scss */
+.prop-images {
+  position: absolute;
+  width: 99999px;
+  /*
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+*/
+}
+/* line 82, ../sass/wigwamm.scss */
+.prop-images .prop-images-col {
+  width: 100%;
+  float: left;
+}
+/* line 87, ../sass/wigwamm.scss */
+.prop-images .background-image {
+  background: #0077b3;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 93, ../sass/wigwamm.scss */
+.prop-images .background-image img {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+/* line 103, ../sass/wigwamm.scss */
+.overlays {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 10;
+}
+/* line 111, ../sass/wigwamm.scss */
+.overlays .perm .logo {
+  width: 113px;
+  width: 11.3rem;
+  height: 62px;
+  height: 6.2rem;
+  top: 10px;
+  top: 1rem;
+  left: 10px;
+  left: 1rem;
+  background: url("../img/logo.png");
+  position: absolute;
+}
+/* line 125, ../sass/wigwamm.scss */
+.overlays .perm .top-items {
+  top: 10px;
+  top: 1rem;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+/* line 133, ../sass/wigwamm.scss */
+.overlays .perm .top-items .beds {
+  border-radius: 3px;
+  border-radius: 0.3rem;
+  line-height: 55px;
+  line-height: 5.5rem;
+  font-size: 3.5rem;
+  font-weight: 300;
+  padding: 0 20px;
+  padding: 0 2rem;
+  display: inline-block;
+  border-radius: 3px;
+  border-radius: 0.3rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  margin-right: 1rem;
+}
+/* line 141, ../sass/wigwamm.scss */
+.overlays .perm .top-items .beds i {
+  font-size: 2rem;
+  top: -0.8rem;
+  position: relative;
+}
+/* line 148, ../sass/wigwamm.scss */
+.overlays .perm .top-items .area {
+  border-radius: 3px;
+  border-radius: 0.3rem;
+  line-height: 55px;
+  line-height: 5.5rem;
+  font-size: 3.5rem;
+  font-weight: 300;
+  padding: 0 20px;
+  padding: 0 2rem;
+  display: inline-block;
+  border-radius: 3px;
+  border-radius: 0.3rem;
+  color: #333;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+/* line 153, ../sass/wigwamm.scss */
+.overlays .perm .top-items .area i {
+  font-size: 2rem;
+  top: -0.8rem;
+  position: relative;
+}
+/* line 161, ../sass/wigwamm.scss */
+.overlays .perm .fav {
+  line-height: 55px;
+  line-height: 5.5rem;
+  font-size: 5.5rem;
+  position: absolute;
+  top: 10px;
+  top: 1rem;
+  right: 10px;
+  right: 1rem;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  pointer-events: auto;
+}
+/* line 180, ../sass/wigwamm.scss */
+.overlays .perm .fav-menu {
+  position: absolute;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  right: 0;
+  padding: 10px 20px;
+  padding: 1rem 2rem;
+  border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 0.3rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  z-index: 9;
+  display: none;
+}
+/* line 195, ../sass/wigwamm.scss */
+.overlays .perm .fav-menu ul, .overlays .perm .fav-menu li {
+  border: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* line 203, ../sass/wigwamm.scss */
+.overlays .perm .fav-menu ul li {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  line-height: 3.5rem;
+  width: 200px;
+  width: 20rem;
+  margin-right: 5rem;
+}
+/* line 210, ../sass/wigwamm.scss */
+.overlays .perm .fav-menu ul li:first-child {
+  border: none;
+}
+/* line 218, ../sass/wigwamm.scss */
+.overlays .perm .bottom-left-items {
+  position: absolute;
+  bottom: 10px;
+  bottom: 1rem;
+  width: 100%;
+  left: 10px;
+  left: 1rem;
+}
+/* line 226, ../sass/wigwamm.scss */
+.overlays .perm .bottom-left-items .name {
+  border-radius: 3px;
+  border-radius: 0.3rem;
+  line-height: 55px;
+  line-height: 5.5rem;
+  font-size: 3.5rem;
+  font-weight: 300;
+  padding: 0 20px;
+  padding: 0 2rem;
+  display: inline-block;
+  border-radius: 3px;
+  border-radius: 0.3rem;
+  color: #333;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  float: left;
+}
+/* line 233, ../sass/wigwamm.scss */
+.overlays .perm .bottom-left-items .info {
+  border-radius: 3px;
+  border-radius: 0.3rem;
+  line-height: 55px;
+  line-height: 5.5rem;
+  font-size: 3.5rem;
+  font-weight: 300;
+  padding: 0 20px;
+  padding: 0 2rem;
+  display: inline-block;
+  border-radius: 3px;
+  border-radius: 0.3rem;
+  color: #333;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  float: left;
+}
+/* line 244, ../sass/wigwamm.scss */
+.overlays .perm .matrix {
+  position: absolute;
+  bottom: 10px;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+/* line 252, ../sass/wigwamm.scss */
+.overlays .perm .matrix .matrix-row {
+  display: inline-block;
+}
+/* line 254, ../sass/wigwamm.scss */
+.overlays .perm .matrix .matrix-row .matrix-cell {
+  width: 1rem;
+  height: 0.8rem;
+  display: inline-block;
+  float: left;
+  border-radius: 0.4rem;
+  margin: 0.1rem;
+}
+/* line 262, ../sass/wigwamm.scss */
+.overlays .perm .matrix .matrix-row .matrix-cell.active {
+  background: rgba(0, 0, 0, 0.7);
+}
+/* line 266, ../sass/wigwamm.scss */
+.overlays .perm .matrix .matrix-row .matrix-cell.current {
+  background: rgba(255, 255, 255, 0.95);
+}
+/* line 273, ../sass/wigwamm.scss */
+.overlays .perm .room {
+  border-radius: 3px;
+  border-radius: 0.3rem;
+  line-height: 35px;
+  line-height: 3.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0 20px;
+  padding: 0 2rem;
+  display: inline-block;
+  color: #333;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  bottom: 10px;
+  bottom: 1rem;
+  right: 10px;
+  right: 1rem;
+  position: absolute;
+}
+/* line 285, ../sass/wigwamm.scss */
+.overlays .slider {
+  pointer-events: auto;
+  position: absolute;
+  width: 9999999px;
+  top: 8rem;
+}
+/* line 291, ../sass/wigwamm.scss */
+.overlays .slider .slider-top {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+}
+/* line 295, ../sass/wigwamm.scss */
+.overlays .slider .slider-top .prop {
+  border-radius: 3px;
+  border-radius: 0.3rem;
+  height: 7rem;
+  width: 7rem;
+  float: left;
+  margin-right: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+/* line 304, ../sass/wigwamm.scss */
+.overlays .slider .slider-top .prop.pound {
+  background: #e8a200;
+  color: white;
+  font-weight: 300;
+}
+/* line 309, ../sass/wigwamm.scss */
+.overlays .slider .slider-top .prop.pound:before {
+  content: "\00A3";
+  position: absolute;
+  height: 7rem;
+  font-size: 5rem;
+  line-height: 7rem;
+  width: 7rem;
+  text-align: center;
+}
+/* line 320, ../sass/wigwamm.scss */
+.overlays .slider .slider-top .prop.selected {
+  background: rgba(255, 255, 255, 0.95);
+}
+/* line 325, ../sass/wigwamm.scss */
+.overlays .slider .slider-top .prop.favourite:before {
+  color: white;
+  font-family: fontawesome;
+  content: '\f005';
+  position: absolute;
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+  font-size: 2rem;
+}
+/* line 337, ../sass/wigwamm.scss */
+.overlays .slider .slider-bottom {
+  font-weight: 700;
+  color: #333;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 0.5rem;
+  height: 2rem;
+}
+/* line 344, ../sass/wigwamm.scss */
+.overlays .slider .slider-bottom .est {
+  width: 7rem;
+  float: left;
+  margin-right: 1rem;
+  text-align: center;
+}
